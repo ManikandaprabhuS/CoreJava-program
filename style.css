@@ -1,0 +1,22 @@
+.box-list {
+	width:100%;
+	overflow:hidden;
+}
+.box-list li {
+	float:left;
+	width:305px;
+	margin-right:13px;
+}
+.box-list li .box1 p {
+	margin:0;
+}
+.box-list li .box1 p a {
+	position:relative;
+	top:5px;
+}
+.box-list li.alt {
+	margin-right:12px;
+}
+.box-list li.last {
+	margin-right:0;
+}
