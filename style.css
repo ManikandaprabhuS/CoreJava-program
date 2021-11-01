@@ -1,22 +1,21 @@
-.box-list {
+.box3 {
 	width:100%;
-	overflow:hidden;
+	border-top:2px solid #3593da;
+	background:url(../images/border-top1.gif) repeat-x left top #176ac7;
 }
-.box-list li {
-	float:left;
-	width:305px;
-	margin-right:13px;
+.box3 .right-bot-corner {
+	background:url(../images/right-bot-corner1.gif) no-repeat right bottom;
 }
-.box-list li .box1 p {
-	margin:0;
+.box3 .left-bot-corner {
+	background:url(../images/left-bot-corner1.gif) no-repeat left bottom;
 }
-.box-list li .box1 p a {
-	position:relative;
-	top:5px;
+.box3 .inner {
+	padding:7px 49px 36px 48px;
 }
-.box-list li.alt {
-	margin-right:12px;
+.box3 h4 {
+	color:#fff;
+	margin-bottom:36px;
 }
-.box-list li.last {
-	margin-right:0;
+.box3 h4 b {
+	color:#c1f0ff;
 }
